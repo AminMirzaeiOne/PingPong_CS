@@ -34,8 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.Name = "FormTools";
-            this.Size = new System.Drawing.Size(275, 313);
+            this.Size = new System.Drawing.Size(600, 45);
             this.ResumeLayout(false);
 
         }
