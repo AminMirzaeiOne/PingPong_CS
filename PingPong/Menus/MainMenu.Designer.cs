@@ -32,8 +32,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblBorder = new System.Windows.Forms.Label();
+            this.radAppControl = new System.Windows.Forms.RadioButton();
+            this.radSettings = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -65,6 +68,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel2.Controls.Add(this.radSettings);
+            this.panel2.Controls.Add(this.radAppControl);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 351);
             this.panel2.Name = "panel2";
@@ -80,6 +85,44 @@
             this.lblBorder.Size = new System.Drawing.Size(246, 2);
             this.lblBorder.TabIndex = 1;
             // 
+            // radAppControl
+            // 
+            this.radAppControl.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radAppControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radAppControl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.radAppControl.FlatAppearance.BorderSize = 0;
+            this.radAppControl.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
+            this.radAppControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radAppControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radAppControl.ForeColor = System.Drawing.Color.White;
+            this.radAppControl.Location = new System.Drawing.Point(0, 0);
+            this.radAppControl.Name = "radAppControl";
+            this.radAppControl.Size = new System.Drawing.Size(110, 45);
+            this.radAppControl.TabIndex = 2;
+            this.radAppControl.TabStop = true;
+            this.radAppControl.Text = "Control";
+            this.radAppControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radAppControl.UseVisualStyleBackColor = true;
+            // 
+            // radSettings
+            // 
+            this.radSettings.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radSettings.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radSettings.FlatAppearance.BorderSize = 0;
+            this.radSettings.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
+            this.radSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radSettings.ForeColor = System.Drawing.Color.White;
+            this.radSettings.Location = new System.Drawing.Point(110, 0);
+            this.radSettings.Name = "radSettings";
+            this.radSettings.Size = new System.Drawing.Size(136, 45);
+            this.radSettings.TabIndex = 3;
+            this.radSettings.TabStop = true;
+            this.radSettings.Text = "Settings";
+            this.radSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radSettings.UseVisualStyleBackColor = true;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -90,6 +133,7 @@
             this.Size = new System.Drawing.Size(250, 400);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -100,5 +144,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblBorder;
+        private System.Windows.Forms.RadioButton radAppControl;
+        private System.Windows.Forms.RadioButton radSettings;
     }
 }
