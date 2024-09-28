@@ -96,9 +96,9 @@
             this.radSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radSettings.ForeColor = System.Drawing.Color.White;
             this.radSettings.Image = global::PingPong.Properties.Resources.icons8_settings_24;
-            this.radSettings.Location = new System.Drawing.Point(110, 0);
+            this.radSettings.Location = new System.Drawing.Point(123, 0);
             this.radSettings.Name = "radSettings";
-            this.radSettings.Size = new System.Drawing.Size(136, 45);
+            this.radSettings.Size = new System.Drawing.Size(123, 45);
             this.radSettings.TabIndex = 3;
             this.radSettings.TabStop = true;
             this.radSettings.Text = "Settings";
@@ -119,7 +119,7 @@
             this.radAppControl.Image = global::PingPong.Properties.Resources.icons8_adjust_24;
             this.radAppControl.Location = new System.Drawing.Point(0, 0);
             this.radAppControl.Name = "radAppControl";
-            this.radAppControl.Size = new System.Drawing.Size(110, 45);
+            this.radAppControl.Size = new System.Drawing.Size(123, 45);
             this.radAppControl.TabIndex = 2;
             this.radAppControl.TabStop = true;
             this.radAppControl.Text = "Control";

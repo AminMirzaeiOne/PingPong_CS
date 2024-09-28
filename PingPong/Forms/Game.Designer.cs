@@ -31,6 +31,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.formTools1 = new PingPong.Controls.FormTools();
+            this.mainMenu1 = new PingPong.Menus.MainMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -52,6 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.mainMenu1);
             this.panel1.Controls.Add(this.formTools1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
@@ -68,6 +70,14 @@
             this.formTools1.Size = new System.Drawing.Size(594, 45);
             this.formTools1.TabIndex = 0;
             this.formTools1.Window = this;
+            // 
+            // mainMenu1
+            // 
+            this.mainMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.mainMenu1.Location = new System.Drawing.Point(3, 51);
+            this.mainMenu1.Name = "mainMenu1";
+            this.mainMenu1.Size = new System.Drawing.Size(250, 400);
+            this.mainMenu1.TabIndex = 1;
             // 
             // Game
             // 
@@ -91,5 +101,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private Controls.FormTools formTools1;
+        private Menus.MainMenu mainMenu1;
     }
 }
