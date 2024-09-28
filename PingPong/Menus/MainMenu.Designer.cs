@@ -109,6 +109,7 @@
             // radAppControl
             // 
             this.radAppControl.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radAppControl.Checked = true;
             this.radAppControl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radAppControl.Dock = System.Windows.Forms.DockStyle.Left;
             this.radAppControl.FlatAppearance.BorderSize = 0;
