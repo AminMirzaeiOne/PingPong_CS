@@ -30,6 +30,7 @@
         {
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMaxRes
@@ -62,11 +63,27 @@
             this.btnClose.TabIndex = 0;
             this.btnClose.UseVisualStyleBackColor = false;
             // 
+            // btnMinimize
+            // 
+            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.BackgroundImage = global::PingPong.Properties.Resources.MinimizeButton;
+            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 2F);
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Location = new System.Drawing.Point(439, 2);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(44, 40);
+            this.btnMinimize.TabIndex = 0;
+            this.btnMinimize.UseVisualStyleBackColor = false;
+            // 
             // FormTools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnMaxRes);
             this.Controls.Add(this.btnClose);
             this.Name = "FormTools";
@@ -79,5 +96,6 @@
 
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMaxRes;
+        private System.Windows.Forms.Button btnMinimize;
     }
 }
