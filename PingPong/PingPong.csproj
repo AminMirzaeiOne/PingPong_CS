@@ -81,6 +81,9 @@
     <EmbeddedResource Include="Forms\Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menus\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
