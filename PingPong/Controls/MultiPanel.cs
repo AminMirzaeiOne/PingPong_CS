@@ -16,5 +16,7 @@ namespace PingPong.Controls
         {
             InitializeComponent();
         }
+
+        public List<Panel> Tasks { get; set; } = new List<Panel>();
     }
 }
