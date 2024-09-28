@@ -67,6 +67,7 @@
             this.formTools1.Name = "formTools1";
             this.formTools1.Size = new System.Drawing.Size(594, 45);
             this.formTools1.TabIndex = 0;
+            this.formTools1.Window = this;
             // 
             // Game
             // 

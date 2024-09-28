@@ -54,6 +54,7 @@
             // 
             // btnMinimize
             // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnMinimize.BackgroundImage = global::PingPong.Properties.Resources.MinimizeButton;
             this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -67,9 +68,11 @@
             this.btnMinimize.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btnMinimize, "Minimize");
             this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnMaxRes
             // 
+            this.btnMaxRes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaxRes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnMaxRes.BackgroundImage = global::PingPong.Properties.Resources.MaxResButton;
             this.btnMaxRes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -87,6 +90,7 @@
             // 
             // btnClose
             // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnClose.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
             this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

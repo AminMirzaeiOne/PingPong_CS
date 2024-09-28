@@ -111,5 +111,8 @@
     <Content Include="PingPongIcon.ico" />
     <None Include="Resources\PingPongIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Menus\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
