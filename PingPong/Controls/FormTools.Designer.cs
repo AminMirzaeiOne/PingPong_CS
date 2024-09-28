@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnIcon = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // btnIcon
             // 
-            this.btnIcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btnIcon.BackColor = System.Drawing.Color.Black;
             this.btnIcon.BackgroundImage = global::PingPong.Properties.Resources.PingPongIcon;
             this.btnIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnIcon.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -47,6 +49,7 @@
             this.btnIcon.Name = "btnIcon";
             this.btnIcon.Size = new System.Drawing.Size(45, 45);
             this.btnIcon.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.btnIcon, "Options");
             this.btnIcon.UseVisualStyleBackColor = false;
             // 
             // btnMinimize
@@ -62,6 +65,7 @@
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(44, 40);
             this.btnMinimize.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnMinimize, "Minimize");
             this.btnMinimize.UseVisualStyleBackColor = false;
             // 
             // btnMaxRes
@@ -77,6 +81,7 @@
             this.btnMaxRes.Name = "btnMaxRes";
             this.btnMaxRes.Size = new System.Drawing.Size(44, 40);
             this.btnMaxRes.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnMaxRes, "Maximize");
             this.btnMaxRes.UseVisualStyleBackColor = false;
             // 
             // btnClose
@@ -92,6 +97,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(44, 40);
             this.btnClose.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnClose, "Exit Game");
             this.btnClose.UseVisualStyleBackColor = false;
             // 
             // FormTools
@@ -115,5 +121,6 @@
         private System.Windows.Forms.Button btnMaxRes;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnIcon;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
