@@ -95,6 +95,7 @@
             this.radSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radSettings.ForeColor = System.Drawing.Color.White;
+            this.radSettings.Image = global::PingPong.Properties.Resources.icons8_settings_24;
             this.radSettings.Location = new System.Drawing.Point(110, 0);
             this.radSettings.Name = "radSettings";
             this.radSettings.Size = new System.Drawing.Size(136, 45);
@@ -102,6 +103,7 @@
             this.radSettings.TabStop = true;
             this.radSettings.Text = "Settings";
             this.radSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radSettings.UseVisualStyleBackColor = true;
             // 
             // radAppControl
