@@ -51,14 +51,14 @@
             // 
             // btnMinimize
             // 
-            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnMinimize.BackgroundImage = global::PingPong.Properties.Resources.MinimizeButton;
             this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 2F);
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(439, 2);
+            this.btnMinimize.Location = new System.Drawing.Point(430, 2);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(44, 40);
             this.btnMinimize.TabIndex = 0;
@@ -66,14 +66,14 @@
             // 
             // btnMaxRes
             // 
-            this.btnMaxRes.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaxRes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnMaxRes.BackgroundImage = global::PingPong.Properties.Resources.MaxResButton;
             this.btnMaxRes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMaxRes.FlatAppearance.BorderSize = 0;
             this.btnMaxRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaxRes.Font = new System.Drawing.Font("Segoe MDL2 Assets", 2F);
             this.btnMaxRes.ForeColor = System.Drawing.Color.White;
-            this.btnMaxRes.Location = new System.Drawing.Point(494, 2);
+            this.btnMaxRes.Location = new System.Drawing.Point(485, 2);
             this.btnMaxRes.Name = "btnMaxRes";
             this.btnMaxRes.Size = new System.Drawing.Size(44, 40);
             this.btnMaxRes.TabIndex = 0;
@@ -81,14 +81,14 @@
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.btnClose.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
             this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 2F);
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(547, 2);
+            this.btnClose.Location = new System.Drawing.Point(538, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(44, 40);
             this.btnClose.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.Controls.Add(this.btnMaxRes);
             this.Controls.Add(this.btnClose);
             this.Name = "FormTools";
-            this.Size = new System.Drawing.Size(600, 45);
+            this.Size = new System.Drawing.Size(594, 45);
             this.ResumeLayout(false);
 
         }
