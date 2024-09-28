@@ -30,15 +30,15 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.lblBorder = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.radSettings = new System.Windows.Forms.RadioButton();
+            this.radAppControl = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAbout = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.radSettings = new System.Windows.Forms.RadioButton();
-            this.radAppControl = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -75,6 +75,15 @@
             this.panel1.Size = new System.Drawing.Size(246, 396);
             this.panel1.TabIndex = 0;
             // 
+            // lblBorder
+            // 
+            this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
+            this.lblBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lblBorder.Location = new System.Drawing.Point(0, 349);
+            this.lblBorder.Name = "lblBorder";
+            this.lblBorder.Size = new System.Drawing.Size(246, 2);
+            this.lblBorder.TabIndex = 1;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -85,87 +94,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(246, 45);
             this.panel2.TabIndex = 0;
-            // 
-            // lblBorder
-            // 
-            this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lblBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lblBorder.Location = new System.Drawing.Point(0, 349);
-            this.lblBorder.Name = "lblBorder";
-            this.lblBorder.Size = new System.Drawing.Size(246, 2);
-            this.lblBorder.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(0, 232);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 2);
-            this.label1.TabIndex = 3;
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
-            this.btnAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbout.ForeColor = System.Drawing.Color.White;
-            this.btnAbout.Image = global::PingPong.Properties.Resources.image__1_;
-            this.btnAbout.Location = new System.Drawing.Point(14, 250);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(216, 85);
-            this.btnAbout.TabIndex = 2;
-            this.btnAbout.Text = "About/Feedback";
-            this.btnAbout.UseVisualStyleBackColor = true;
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
-            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Image = global::PingPong.Properties.Resources.MinimizeButton;
-            this.btnMinimize.Location = new System.Drawing.Point(14, 161);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(216, 55);
-            this.btnMinimize.TabIndex = 2;
-            this.btnMinimize.Text = "Minimize";
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            // 
-            // btnMaxRes
-            // 
-            this.btnMaxRes.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
-            this.btnMaxRes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMaxRes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaxRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaxRes.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMaxRes.ForeColor = System.Drawing.Color.White;
-            this.btnMaxRes.Image = global::PingPong.Properties.Resources.MaxResButton;
-            this.btnMaxRes.Location = new System.Drawing.Point(14, 86);
-            this.btnMaxRes.Name = "btnMaxRes";
-            this.btnMaxRes.Size = new System.Drawing.Size(216, 55);
-            this.btnMaxRes.TabIndex = 2;
-            this.btnMaxRes.Text = "Maximize";
-            this.btnMaxRes.UseVisualStyleBackColor = true;
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Image = global::PingPong.Properties.Resources.CloseButton;
-            this.btnClose.Location = new System.Drawing.Point(14, 13);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(216, 55);
-            this.btnClose.TabIndex = 2;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
             // 
             // radSettings
             // 
@@ -209,6 +137,78 @@
             this.radAppControl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radAppControl.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Location = new System.Drawing.Point(0, 256);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(246, 2);
+            this.label1.TabIndex = 8;
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
+            this.btnAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.ForeColor = System.Drawing.Color.White;
+            this.btnAbout.Image = global::PingPong.Properties.Resources.image__1_;
+            this.btnAbout.Location = new System.Drawing.Point(14, 274);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(216, 85);
+            this.btnAbout.TabIndex = 4;
+            this.btnAbout.Text = "About/Feedback";
+            this.btnAbout.UseVisualStyleBackColor = true;
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
+            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::PingPong.Properties.Resources.MinimizeButton;
+            this.btnMinimize.Location = new System.Drawing.Point(14, 185);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(216, 55);
+            this.btnMinimize.TabIndex = 5;
+            this.btnMinimize.Text = "Minimize";
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            // 
+            // btnMaxRes
+            // 
+            this.btnMaxRes.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
+            this.btnMaxRes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMaxRes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMaxRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaxRes.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaxRes.ForeColor = System.Drawing.Color.White;
+            this.btnMaxRes.Image = global::PingPong.Properties.Resources.MaxResButton;
+            this.btnMaxRes.Location = new System.Drawing.Point(14, 110);
+            this.btnMaxRes.Name = "btnMaxRes";
+            this.btnMaxRes.Size = new System.Drawing.Size(216, 55);
+            this.btnMaxRes.TabIndex = 6;
+            this.btnMaxRes.Text = "Maximize";
+            this.btnMaxRes.UseVisualStyleBackColor = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.Image = global::PingPong.Properties.Resources.CloseButton;
+            this.btnClose.Location = new System.Drawing.Point(14, 37);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(216, 55);
+            this.btnClose.TabIndex = 7;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -232,10 +232,10 @@
         private System.Windows.Forms.Label lblBorder;
         private System.Windows.Forms.RadioButton radAppControl;
         private System.Windows.Forms.RadioButton radSettings;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnMinimize;
-        private System.Windows.Forms.Button btnMaxRes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Button btnMaxRes;
+        private System.Windows.Forms.Button btnClose;
     }
 }

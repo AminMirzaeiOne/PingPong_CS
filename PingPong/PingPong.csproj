@@ -55,6 +55,12 @@
     <Compile Include="Controls\FormTools.Designer.cs">
       <DependentUpon>FormTools.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\MultiPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MultiPanel.Designer.cs">
+      <DependentUpon>MultiPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\About.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\FormTools.resx">
       <DependentUpon>FormTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MultiPanel.resx">
+      <DependentUpon>MultiPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
