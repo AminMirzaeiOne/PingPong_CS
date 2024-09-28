@@ -99,6 +99,7 @@
             this.btnClose.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btnClose, "Exit Game");
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // FormTools
             // 
