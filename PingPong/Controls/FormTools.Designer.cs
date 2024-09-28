@@ -83,6 +83,7 @@
             this.btnMaxRes.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btnMaxRes, "Maximize");
             this.btnMaxRes.UseVisualStyleBackColor = false;
+            this.btnMaxRes.Click += new System.EventHandler(this.btnMaxRes_Click);
             // 
             // btnClose
             // 

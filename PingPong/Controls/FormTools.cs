@@ -17,9 +17,16 @@ namespace PingPong.Controls
             InitializeComponent();
         }
 
+        public System.Windows.Forms.Form Window { get; set; }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            if()
         }
     }
 }
