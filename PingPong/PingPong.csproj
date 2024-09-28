@@ -67,6 +67,12 @@
     <Compile Include="Forms\Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menus\MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menus\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\FormTools.resx">
@@ -111,8 +117,6 @@
     <Content Include="PingPongIcon.ico" />
     <None Include="Resources\PingPongIcon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Menus\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
