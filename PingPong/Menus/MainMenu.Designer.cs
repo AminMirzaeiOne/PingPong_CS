@@ -34,6 +34,7 @@
             this.lblBorder = new System.Windows.Forms.Label();
             this.radSettings = new System.Windows.Forms.RadioButton();
             this.radAppControl = new System.Windows.Forms.RadioButton();
+            this.btnClose = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -56,6 +57,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.lblBorder);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -100,7 +102,6 @@
             this.radSettings.Name = "radSettings";
             this.radSettings.Size = new System.Drawing.Size(123, 45);
             this.radSettings.TabIndex = 3;
-            this.radSettings.TabStop = true;
             this.radSettings.Text = "Settings";
             this.radSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -128,6 +129,23 @@
             this.radAppControl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radAppControl.UseVisualStyleBackColor = true;
             // 
+            // btnClose
+            // 
+            this.btnClose.BackgroundImage = global::PingPong.Properties.Resources.CloseButton;
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
+            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.Image = global::PingPong.Properties.Resources.CloseButton;
+            this.btnClose.Location = new System.Drawing.Point(14, 13);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(216, 50);
+            this.btnClose.TabIndex = 2;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -151,5 +169,6 @@
         private System.Windows.Forms.Label lblBorder;
         private System.Windows.Forms.RadioButton radAppControl;
         private System.Windows.Forms.RadioButton radSettings;
+        private System.Windows.Forms.Button btnClose;
     }
 }
