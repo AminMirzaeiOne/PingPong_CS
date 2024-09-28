@@ -73,6 +73,26 @@ namespace PingPong.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_adjust_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-adjust-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_adjust_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-adjust-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MaxResButton {
             get {
                 object obj = ResourceManager.GetObject("MaxResButton", resourceCulture);

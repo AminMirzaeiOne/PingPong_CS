@@ -32,8 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblBorder = new System.Windows.Forms.Label();
-            this.radAppControl = new System.Windows.Forms.RadioButton();
             this.radSettings = new System.Windows.Forms.RadioButton();
+            this.radAppControl = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -85,25 +85,6 @@
             this.lblBorder.Size = new System.Drawing.Size(246, 2);
             this.lblBorder.TabIndex = 1;
             // 
-            // radAppControl
-            // 
-            this.radAppControl.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radAppControl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radAppControl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.radAppControl.FlatAppearance.BorderSize = 0;
-            this.radAppControl.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
-            this.radAppControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radAppControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radAppControl.ForeColor = System.Drawing.Color.White;
-            this.radAppControl.Location = new System.Drawing.Point(0, 0);
-            this.radAppControl.Name = "radAppControl";
-            this.radAppControl.Size = new System.Drawing.Size(110, 45);
-            this.radAppControl.TabIndex = 2;
-            this.radAppControl.TabStop = true;
-            this.radAppControl.Text = "Control";
-            this.radAppControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radAppControl.UseVisualStyleBackColor = true;
-            // 
             // radSettings
             // 
             this.radSettings.Appearance = System.Windows.Forms.Appearance.Button;
@@ -122,6 +103,27 @@
             this.radSettings.Text = "Settings";
             this.radSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radSettings.UseVisualStyleBackColor = true;
+            // 
+            // radAppControl
+            // 
+            this.radAppControl.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radAppControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radAppControl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.radAppControl.FlatAppearance.BorderSize = 0;
+            this.radAppControl.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
+            this.radAppControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radAppControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radAppControl.ForeColor = System.Drawing.Color.White;
+            this.radAppControl.Image = global::PingPong.Properties.Resources.icons8_adjust_24;
+            this.radAppControl.Location = new System.Drawing.Point(0, 0);
+            this.radAppControl.Name = "radAppControl";
+            this.radAppControl.Size = new System.Drawing.Size(110, 45);
+            this.radAppControl.TabIndex = 2;
+            this.radAppControl.TabStop = true;
+            this.radAppControl.Text = "Control";
+            this.radAppControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radAppControl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radAppControl.UseVisualStyleBackColor = true;
             // 
             // MainMenu
             // 
