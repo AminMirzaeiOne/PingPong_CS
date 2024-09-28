@@ -118,6 +118,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PingPongIcon.ico" />
+    <None Include="Resources\image %281%29.png" />
+    <None Include="Resources\image.png" />
     <None Include="Resources\icons8-settings-24.png" />
     <None Include="Resources\icons8-adjust-24.png" />
     <None Include="Resources\icons8-adjust-48.png" />
