@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PingPongIcon.ico" />
+    <None Include="Resources\PingPongIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
