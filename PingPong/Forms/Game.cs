@@ -17,6 +17,18 @@ namespace PingPong.Forms
             InitializeComponent();
         }
 
+        int xspeed;
+        int yspeed;
+        int lastx;
+        int lastx_cpu;
+        int score_player;
+        int score_cpu;
+        int topBounds;
+        int bottomBounds;
+        int leftBounds;
+        int rightBounds;
+        bool paused = false;
+
         private void label4_Click(object sender, EventArgs e)
         {
 
