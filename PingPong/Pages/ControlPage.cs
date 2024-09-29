@@ -16,5 +16,7 @@ namespace PingPong.Pages
         {
             InitializeComponent();
         }
+
+        public System.Windows.Forms.Form Window { get; set; }
     }
 }
