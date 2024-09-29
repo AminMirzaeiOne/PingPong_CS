@@ -43,7 +43,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::PingPong.Properties.Resources.CloseButton;
-            this.btnClose.Location = new System.Drawing.Point(24, 22);
+            this.btnClose.Location = new System.Drawing.Point(24, 16);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(200, 60);
             this.btnClose.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.btnMaxRes.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaxRes.ForeColor = System.Drawing.Color.White;
             this.btnMaxRes.Image = global::PingPong.Properties.Resources.MaxResButton;
-            this.btnMaxRes.Location = new System.Drawing.Point(24, 104);
+            this.btnMaxRes.Location = new System.Drawing.Point(24, 98);
             this.btnMaxRes.Name = "btnMaxRes";
             this.btnMaxRes.Size = new System.Drawing.Size(200, 60);
             this.btnMaxRes.TabIndex = 0;
@@ -73,7 +73,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Image = global::PingPong.Properties.Resources.MinimizeButton;
-            this.btnMinimize.Location = new System.Drawing.Point(24, 186);
+            this.btnMinimize.Location = new System.Drawing.Point(24, 180);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(200, 60);
             this.btnMinimize.TabIndex = 0;
@@ -84,7 +84,7 @@
             // lblBorder
             // 
             this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lblBorder.Location = new System.Drawing.Point(0, 271);
+            this.lblBorder.Location = new System.Drawing.Point(0, 260);
             this.lblBorder.Name = "lblBorder";
             this.lblBorder.Size = new System.Drawing.Size(246, 2);
             this.lblBorder.TabIndex = 2;
@@ -96,7 +96,7 @@
             this.btnAbout.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAbout.ForeColor = System.Drawing.Color.White;
             this.btnAbout.Image = global::PingPong.Properties.Resources.image__1_;
-            this.btnAbout.Location = new System.Drawing.Point(24, 301);
+            this.btnAbout.Location = new System.Drawing.Point(24, 278);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(80, 60);
             this.btnAbout.TabIndex = 0;
@@ -110,7 +110,7 @@
             this.btnFeedback.Font = new System.Drawing.Font("Segoe MDL2 Assets", 13F);
             this.btnFeedback.ForeColor = System.Drawing.Color.White;
             this.btnFeedback.Image = global::PingPong.Properties.Resources.image;
-            this.btnFeedback.Location = new System.Drawing.Point(144, 301);
+            this.btnFeedback.Location = new System.Drawing.Point(144, 278);
             this.btnFeedback.Name = "btnFeedback";
             this.btnFeedback.Size = new System.Drawing.Size(80, 60);
             this.btnFeedback.TabIndex = 0;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.btnMaxRes);
             this.Controls.Add(this.btnClose);
             this.Name = "ControlPage";
-            this.Size = new System.Drawing.Size(246, 396);
+            this.Size = new System.Drawing.Size(246, 349);
             this.ResumeLayout(false);
 
         }
