@@ -52,9 +52,10 @@ namespace PingPong.Menus
             this.controlPage.MinimizeClicked += new EventHandler(this.MinimizeClicked);
         }
 
-        private void Maximize_Clicked(object sender,EventArgs e)
+        private void Maximize_Clicked(object sender, EventArgs e)
         {
-            this.MaximizeClicked(sender, e);
+            if (this.MaximizeClicked != null)
+                this.MaximizeClicked(sender, e);
         }
 
         private void Minimize_Clicked(object sender, EventArgs e)

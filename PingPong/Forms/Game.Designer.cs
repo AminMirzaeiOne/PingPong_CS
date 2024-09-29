@@ -41,8 +41,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnPlayer = new System.Windows.Forms.Button();
+            this.lblBall = new System.Windows.Forms.Label();
+            this.bntCPU = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,8 +67,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.formTools1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
@@ -84,10 +88,14 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel2.Location = new System.Drawing.Point(260, 81);
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.bntCPU);
+            this.panel2.Controls.Add(this.btnPlayer);
+            this.panel2.Controls.Add(this.lblBall);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 45);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.Size = new System.Drawing.Size(594, 489);
             this.panel2.TabIndex = 1;
             // 
             // lblCPU
@@ -161,7 +169,7 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label3.BackColor = System.Drawing.Color.SlateBlue;
             this.label3.Location = new System.Drawing.Point(342, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(20, 20);
@@ -185,6 +193,40 @@
             this.label5.Size = new System.Drawing.Size(594, 2);
             this.label5.TabIndex = 4;
             // 
+            // btnPlayer
+            // 
+            this.btnPlayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnPlayer.BackColor = System.Drawing.Color.SlateBlue;
+            this.btnPlayer.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.btnPlayer.FlatAppearance.BorderSize = 0;
+            this.btnPlayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlayer.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnPlayer.Location = new System.Drawing.Point(213, 429);
+            this.btnPlayer.Name = "btnPlayer";
+            this.btnPlayer.Size = new System.Drawing.Size(160, 30);
+            this.btnPlayer.TabIndex = 0;
+            this.btnPlayer.UseVisualStyleBackColor = false;
+            // 
+            // lblBall
+            // 
+            this.lblBall.BackColor = System.Drawing.Color.Orange;
+            this.lblBall.Location = new System.Drawing.Point(289, 331);
+            this.lblBall.Name = "lblBall";
+            this.lblBall.Size = new System.Drawing.Size(30, 30);
+            this.lblBall.TabIndex = 3;
+            // 
+            // bntCPU
+            // 
+            this.bntCPU.BackColor = System.Drawing.Color.Crimson;
+            this.bntCPU.FlatAppearance.BorderSize = 0;
+            this.bntCPU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntCPU.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bntCPU.Location = new System.Drawing.Point(213, 22);
+            this.bntCPU.Name = "bntCPU";
+            this.bntCPU.Size = new System.Drawing.Size(160, 30);
+            this.bntCPU.TabIndex = 0;
+            this.bntCPU.UseVisualStyleBackColor = false;
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -198,6 +240,7 @@
             this.Text = "Game";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -219,5 +262,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnPlayer;
+        private System.Windows.Forms.Button bntCPU;
+        private System.Windows.Forms.Label lblBall;
     }
 }
