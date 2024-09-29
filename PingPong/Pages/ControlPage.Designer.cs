@@ -31,6 +31,9 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.lblBorder = new System.Windows.Forms.Label();
+            this.btnAbout = new System.Windows.Forms.Button();
+            this.btnFeedback = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClose
@@ -75,11 +78,50 @@
             this.btnMinimize.Text = "Minimize";
             this.btnMinimize.UseVisualStyleBackColor = true;
             // 
+            // lblBorder
+            // 
+            this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
+            this.lblBorder.Location = new System.Drawing.Point(0, 271);
+            this.lblBorder.Name = "lblBorder";
+            this.lblBorder.Size = new System.Drawing.Size(246, 2);
+            this.lblBorder.TabIndex = 2;
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.ForeColor = System.Drawing.Color.White;
+            this.btnAbout.Image = global::PingPong.Properties.Resources.image__1_;
+            this.btnAbout.Location = new System.Drawing.Point(24, 301);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(80, 60);
+            this.btnAbout.TabIndex = 0;
+            this.btnAbout.Text = "";
+            this.btnAbout.UseVisualStyleBackColor = true;
+            // 
+            // btnFeedback
+            // 
+            this.btnFeedback.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFeedback.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFeedback.Font = new System.Drawing.Font("Segoe MDL2 Assets", 13F);
+            this.btnFeedback.ForeColor = System.Drawing.Color.White;
+            this.btnFeedback.Image = global::PingPong.Properties.Resources.image;
+            this.btnFeedback.Location = new System.Drawing.Point(144, 301);
+            this.btnFeedback.Name = "btnFeedback";
+            this.btnFeedback.Size = new System.Drawing.Size(80, 60);
+            this.btnFeedback.TabIndex = 0;
+            this.btnFeedback.Text = "";
+            this.btnFeedback.UseVisualStyleBackColor = true;
+            // 
             // ControlPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.lblBorder);
+            this.Controls.Add(this.btnFeedback);
+            this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnMaxRes);
             this.Controls.Add(this.btnClose);
@@ -94,5 +136,8 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMaxRes;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Label lblBorder;
+        private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnFeedback;
     }
 }
