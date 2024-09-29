@@ -99,6 +99,9 @@
     <EmbeddedResource Include="Pages\ControlPage.resx">
       <DependentUpon>ControlPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\SettingsPage.resx">
+      <DependentUpon>SettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
