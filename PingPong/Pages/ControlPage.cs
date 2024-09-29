@@ -41,5 +41,13 @@ namespace PingPong.Pages
                 }
             }
         }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            if (this.Window != null)
+            {
+                this.Window.WindowState = FormWindowState.Minimized;
+            }
+        }
     }
 }

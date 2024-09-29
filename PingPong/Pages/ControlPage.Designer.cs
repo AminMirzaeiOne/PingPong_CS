@@ -79,6 +79,7 @@
             this.btnMinimize.TabIndex = 0;
             this.btnMinimize.Text = "Minimize";
             this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // lblBorder
             // 
