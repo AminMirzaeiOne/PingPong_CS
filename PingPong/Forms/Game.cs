@@ -203,6 +203,14 @@ namespace PingPong.Forms
             }
         }
 
+        private void movePlayers(object sender, EventArgs e)
+        {
+            //Properly position the paddles
+            this.btnPlayer.Location = new Point(this.btnPlayer.Location.X, bottomBounds - 46);
+            this.btnCPU.Location = new Point(this.btnCPU.Location.X, topBounds + 12);
+            //pause_txt.Location = new Point((int)rightBounds / 2 - pause_txt.Width / 2, (int)bottomBounds / 2 - pause_txt.Height / 2);
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
 
