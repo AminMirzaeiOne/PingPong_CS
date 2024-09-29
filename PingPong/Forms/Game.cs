@@ -70,7 +70,15 @@ namespace PingPong.Forms
             if (!paused)
             {
                 //Player 1
-                this.btnPlayer.Location = new Point((int)(MousePosition.X - this.btnPlayer.Width), this.btnPlayer.Location.Y);
+                if (btnPlayer.Location.X < this.panel2.Right)
+                {
+                    this.btnPlayer.Location = new Point((int)(MousePosition.X - this.btnPlayer.Width), this.btnPlayer.Location.Y);
+                }
+                else
+                {
+                    this.btnPlayer.Location = new Point(this.panel2.Size.Width - 10, this.btnPlayer.Location.Y);
+                }
+
                 this.lblBall.Location = new Point(this.lblBall.Location.X + xspeed, this.lblBall.Location.Y + yspeed);
 
                 //Computer
@@ -206,10 +214,12 @@ namespace PingPong.Forms
         private void movePlayers(object sender, EventArgs e)
         {
             //Properly position the paddles
-            this.btnPlayer.Location = new Point(this.btnPlayer.Location.X, bottomBounds - 46);
+            //this.btnPlayer.Location = new Point(this.btnPlayer.Location.X, bottomBounds - 46);
             this.btnCPU.Location = new Point(this.btnCPU.Location.X, topBounds + 12);
             //pause_txt.Location = new Point((int)rightBounds / 2 - pause_txt.Width / 2, (int)bottomBounds / 2 - pause_txt.Height / 2);
         }
+
+        
 
         private void label4_Click(object sender, EventArgs e)
         {

@@ -93,6 +93,9 @@
     <EmbeddedResource Include="Controls\FormTools.resx">
       <DependentUpon>FormTools.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>

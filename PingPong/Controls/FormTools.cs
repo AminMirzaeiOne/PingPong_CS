@@ -19,6 +19,11 @@ namespace PingPong.Controls
 
         XDropDown.XToolStripDropDown xTool;
 
+        public System.Boolean MaximizeButton
+        {
+            get { return this.btnMaxRes.Visible; }
+            set { this.btnMaxRes.Visible = value; }
+        }
 
         private PingPong.Menus.MainMenu mainMenu = new Menus.MainMenu();
 
@@ -33,11 +38,11 @@ namespace PingPong.Controls
         {
             if (this.Window != null)
             {
-                if(this.Window.WindowState == FormWindowState.Normal)
+                if (this.Window.WindowState == FormWindowState.Normal)
                 {
                     this.Window.WindowState = FormWindowState.Maximized;
                 }
-                else if(this.Window.WindowState == FormWindowState.Maximized)
+                else if (this.Window.WindowState == FormWindowState.Maximized)
                 {
                     this.Window.WindowState = FormWindowState.Normal;
                 }
@@ -46,7 +51,7 @@ namespace PingPong.Controls
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-            if (this.Window != null) 
+            if (this.Window != null)
             {
                 this.Window.WindowState = FormWindowState.Minimized;
             }

@@ -28,12 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.formTools1 = new PingPong.Controls.FormTools();
+            this.SuspendLayout();
+            // 
+            // formTools1
+            // 
+            this.formTools1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.formTools1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.formTools1.Location = new System.Drawing.Point(0, 0);
+            this.formTools1.Name = "formTools1";
+            this.formTools1.Size = new System.Drawing.Size(328, 45);
+            this.formTools1.TabIndex = 0;
+            this.formTools1.Window = null;
+            // 
+            // About
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ClientSize = new System.Drawing.Size(328, 394);
+            this.Controls.Add(this.formTools1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "About";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Controls.FormTools formTools1;
     }
 }
