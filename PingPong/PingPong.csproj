@@ -79,6 +79,12 @@
     <Compile Include="Pages\ControlPage.Designer.cs">
       <DependentUpon>ControlPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\SettingsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\SettingsPage.Designer.cs">
+      <DependentUpon>SettingsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\FormTools.resx">

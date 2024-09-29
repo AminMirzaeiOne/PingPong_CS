@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PingPong.Menus
+namespace PingPong.Pages
 {
-    public partial class MainMenu : UserControl
+    public partial class SettingsPage : UserControl
     {
-        public MainMenu()
+        public SettingsPage()
         {
             InitializeComponent();
-
         }
     }
 }

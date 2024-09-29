@@ -35,11 +35,9 @@
             this.radSettings = new System.Windows.Forms.RadioButton();
             this.radAppControl = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.controlPage1 = new PingPong.Pages.ControlPage();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -133,21 +131,11 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.controlPage1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(246, 349);
             this.panel3.TabIndex = 2;
-            // 
-            // controlPage1
-            // 
-            this.controlPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.controlPage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.controlPage1.Location = new System.Drawing.Point(0, 0);
-            this.controlPage1.Name = "controlPage1";
-            this.controlPage1.Size = new System.Drawing.Size(246, 349);
-            this.controlPage1.TabIndex = 0;
             // 
             // MainMenu
             // 
@@ -160,7 +148,6 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -174,6 +161,5 @@
         private System.Windows.Forms.RadioButton radAppControl;
         private System.Windows.Forms.RadioButton radSettings;
         private System.Windows.Forms.Panel panel3;
-        private Pages.ControlPage controlPage1;
     }
 }
