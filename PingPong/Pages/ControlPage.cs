@@ -18,5 +18,13 @@ namespace PingPong.Pages
         }
 
         public System.Windows.Forms.Form Window { get; set; }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if(this.Window!= null)
+            {
+                this.Window.Close();
+            }
+        }
     }
 }
