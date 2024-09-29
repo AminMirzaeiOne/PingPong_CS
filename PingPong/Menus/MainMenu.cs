@@ -24,8 +24,10 @@ namespace PingPong.Menus
             this.controlPage.Dock = DockStyle.Fill;
             this.settingsPage.Dock = DockStyle.Fill;
             this.controlPage.BringToFront();
-            this.controlPage.Window = this.Window;
         }
+
+        public event EventHandler MaximizeClicked;
+        public event EventHandler MinimizeClicked;
 
         private void radAppControl_CheckedChanged(object sender, EventArgs e)
         {
@@ -41,6 +43,23 @@ namespace PingPong.Menus
             {
                 this.settingsPage.BringToFront();
             }
+        }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+            this.controlPage.Window = this.Window;
+            this.controlPage.MaximizeClicked += new EventHandler(this.Maximize_Clicked);
+            this.controlPage.MinimizeClicked += new EventHandler(this.MinimizeClicked);
+        }
+
+        private void Maximize_Clicked(object sender,EventArgs e)
+        {
+            this.MaximizeClicked(sender, e);
+        }
+
+        private void Minimize_Clicked(object sender, EventArgs e)
+        {
+            this.MinimizeClicked(sender, e);
         }
     }
 }

@@ -30,9 +30,9 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.lblBorder = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.radSettings = new System.Windows.Forms.RadioButton();
             this.radAppControl = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
@@ -67,6 +67,14 @@
             this.panel1.Size = new System.Drawing.Size(246, 396);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(246, 349);
+            this.panel3.TabIndex = 2;
+            // 
             // lblBorder
             // 
             this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
@@ -86,14 +94,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(246, 45);
             this.panel2.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(246, 349);
-            this.panel3.TabIndex = 2;
             // 
             // radSettings
             // 
@@ -147,6 +147,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "MainMenu";
             this.Size = new System.Drawing.Size(250, 400);
+            this.Load += new System.EventHandler(this.MainMenu_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

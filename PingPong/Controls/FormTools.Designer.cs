@@ -118,6 +118,7 @@
             this.Controls.Add(this.btnClose);
             this.Name = "FormTools";
             this.Size = new System.Drawing.Size(594, 45);
+            this.Load += new System.EventHandler(this.FormTools_Load);
             this.ResumeLayout(false);
 
         }

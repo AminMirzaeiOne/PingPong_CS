@@ -17,28 +17,31 @@ namespace PingPong.Pages
             InitializeComponent();
         }
 
+        public event EventHandler MinimizeClicked;
+        public event EventHandler MaximizeClicked;
+
         public System.Windows.Forms.Form Window { get; set; }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if(this.Window!= null)
-            {
+            if (this.Window != null)
                 this.Window.Close();
-            }
+
         }
 
         private void btnMaxRes_Click(object sender, EventArgs e)
         {
             if (this.Window != null)
             {
-                if(this.Window.WindowState == FormWindowState.Normal)
+                if (this.Window.WindowState == FormWindowState.Normal)
                 {
                     this.Window.WindowState = FormWindowState.Maximized;
                 }
-                else if(this.Window.WindowState == FormWindowState.Maximized)
+                else if (this.Window.WindowState == FormWindowState.Maximized)
                 {
                     this.Window.WindowState = FormWindowState.Normal;
                 }
+                this.MaximizeClicked(sender, e);
             }
         }
 
@@ -48,6 +51,7 @@ namespace PingPong.Pages
             {
                 this.Window.WindowState = FormWindowState.Minimized;
             }
+            this.MinimizeClicked(sender, e);
         }
     }
 }
