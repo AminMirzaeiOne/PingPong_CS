@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.formTools1 = new PingPong.Controls.FormTools();
@@ -37,13 +38,14 @@
             this.lblCpuPoints = new System.Windows.Forms.Label();
             this.lblCpuColor = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblPlayerPoints = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnPlayer = new System.Windows.Forms.Button();
             this.lblBall = new System.Windows.Forms.Label();
             this.btnCPU = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -116,7 +118,7 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.lblCpuColor);
-            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.lblPlayerPoints);
             this.panel3.Controls.Add(this.lblCpuPoints);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.lblCPU);
@@ -156,16 +158,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Player Points :";
             // 
-            // label2
+            // lblPlayerPoints
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(515, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 30);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "10";
+            this.lblPlayerPoints.AutoSize = true;
+            this.lblPlayerPoints.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerPoints.ForeColor = System.Drawing.Color.White;
+            this.lblPlayerPoints.Location = new System.Drawing.Point(515, 15);
+            this.lblPlayerPoints.Name = "lblPlayerPoints";
+            this.lblPlayerPoints.Size = new System.Drawing.Size(37, 30);
+            this.lblPlayerPoints.TabIndex = 0;
+            this.lblPlayerPoints.Text = "10";
             // 
             // label3
             // 
@@ -227,6 +229,12 @@
             this.btnCPU.TabIndex = 0;
             this.btnCPU.UseVisualStyleBackColor = false;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.moveBall);
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -258,12 +266,13 @@
         private System.Windows.Forms.Label lblCPU;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblCpuColor;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPlayerPoints;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnPlayer;
         private System.Windows.Forms.Button btnCPU;
         private System.Windows.Forms.Label lblBall;
+        private System.Windows.Forms.Timer timer1;
     }
 }
