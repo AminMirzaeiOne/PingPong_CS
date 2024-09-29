@@ -64,6 +64,7 @@
             this.btnMaxRes.TabIndex = 0;
             this.btnMaxRes.Text = "Maximize";
             this.btnMaxRes.UseVisualStyleBackColor = true;
+            this.btnMaxRes.Click += new System.EventHandler(this.btnMaxRes_Click);
             // 
             // btnMinimize
             // 

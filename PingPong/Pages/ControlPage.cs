@@ -26,5 +26,20 @@ namespace PingPong.Pages
                 this.Window.Close();
             }
         }
+
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            if (this.Window != null)
+            {
+                if(this.Window.WindowState == FormWindowState.Normal)
+                {
+                    this.Window.WindowState = FormWindowState.Maximized;
+                }
+                else if(this.Window.WindowState == FormWindowState.Maximized)
+                {
+                    this.Window.WindowState = FormWindowState.Normal;
+                }
+            }
+        }
     }
 }
