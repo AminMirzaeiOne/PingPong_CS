@@ -17,6 +17,8 @@ namespace PingPong.Controls
             InitializeComponent();
         }
 
+        private PingPong.Menus.MainMenu mainMenu = new Menus.MainMenu();
+
         public System.Windows.Forms.Form Window { get; set; }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -49,6 +51,8 @@ namespace PingPong.Controls
 
         private void btnIcon_Click(object sender, EventArgs e)
         {
+            XDropDown.XToolStripDropDown xtool = new XDropDown.XToolStripDropDown(this.mainMenu);
+            xtool.Show(this.btnIcon);
 
         }
     }
