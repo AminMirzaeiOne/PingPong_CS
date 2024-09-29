@@ -43,7 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnPlayer = new System.Windows.Forms.Button();
             this.lblBall = new System.Windows.Forms.Label();
-            this.bntCPU = new System.Windows.Forms.Button();
+            this.btnCPU = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,7 +89,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.bntCPU);
+            this.panel2.Controls.Add(this.btnCPU);
             this.panel2.Controls.Add(this.btnPlayer);
             this.panel2.Controls.Add(this.lblBall);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -215,17 +215,17 @@
             this.lblBall.Size = new System.Drawing.Size(30, 30);
             this.lblBall.TabIndex = 3;
             // 
-            // bntCPU
+            // btnCPU
             // 
-            this.bntCPU.BackColor = System.Drawing.Color.Crimson;
-            this.bntCPU.FlatAppearance.BorderSize = 0;
-            this.bntCPU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntCPU.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.bntCPU.Location = new System.Drawing.Point(213, 22);
-            this.bntCPU.Name = "bntCPU";
-            this.bntCPU.Size = new System.Drawing.Size(160, 30);
-            this.bntCPU.TabIndex = 0;
-            this.bntCPU.UseVisualStyleBackColor = false;
+            this.btnCPU.BackColor = System.Drawing.Color.Crimson;
+            this.btnCPU.FlatAppearance.BorderSize = 0;
+            this.btnCPU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCPU.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnCPU.Location = new System.Drawing.Point(213, 22);
+            this.btnCPU.Name = "btnCPU";
+            this.btnCPU.Size = new System.Drawing.Size(160, 30);
+            this.btnCPU.TabIndex = 0;
+            this.btnCPU.UseVisualStyleBackColor = false;
             // 
             // Game
             // 
@@ -263,7 +263,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnPlayer;
-        private System.Windows.Forms.Button bntCPU;
+        private System.Windows.Forms.Button btnCPU;
         private System.Windows.Forms.Label lblBall;
     }
 }
