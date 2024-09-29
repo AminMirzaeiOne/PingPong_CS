@@ -30,6 +30,7 @@
         {
             this.btnClose = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClose
@@ -60,11 +61,26 @@
             this.btnMaxRes.Text = "Maximize";
             this.btnMaxRes.UseVisualStyleBackColor = true;
             // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::PingPong.Properties.Resources.MinimizeButton;
+            this.btnMinimize.Location = new System.Drawing.Point(24, 186);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(200, 60);
+            this.btnMinimize.TabIndex = 0;
+            this.btnMinimize.Text = "Minimize";
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            // 
             // ControlPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnMaxRes);
             this.Controls.Add(this.btnClose);
             this.Name = "ControlPage";
@@ -77,5 +93,6 @@
 
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMaxRes;
+        private System.Windows.Forms.Button btnMinimize;
     }
 }
