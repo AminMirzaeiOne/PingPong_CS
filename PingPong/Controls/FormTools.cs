@@ -46,5 +46,10 @@ namespace PingPong.Controls
                 this.Window.WindowState = FormWindowState.Minimized;
             }
         }
+
+        private void btnIcon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

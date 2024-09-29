@@ -32,9 +32,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblBorder = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.radSettings = new System.Windows.Forms.RadioButton();
             this.radAppControl = new System.Windows.Forms.RadioButton();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,6 +87,14 @@
             this.panel2.Size = new System.Drawing.Size(246, 45);
             this.panel2.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(246, 349);
+            this.panel3.TabIndex = 2;
+            // 
             // radSettings
             // 
             this.radSettings.Appearance = System.Windows.Forms.Appearance.Button;
@@ -106,6 +114,7 @@
             this.radSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radSettings.UseVisualStyleBackColor = true;
+            this.radSettings.CheckedChanged += new System.EventHandler(this.radSettings_CheckedChanged);
             // 
             // radAppControl
             // 
@@ -128,14 +137,7 @@
             this.radAppControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radAppControl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radAppControl.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(246, 349);
-            this.panel3.TabIndex = 2;
+            this.radAppControl.CheckedChanged += new System.EventHandler(this.radAppControl_CheckedChanged);
             // 
             // MainMenu
             // 

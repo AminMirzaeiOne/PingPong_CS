@@ -49,7 +49,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Light",
             "Dark"});
-            this.comboBox1.Location = new System.Drawing.Point(8, 23);
+            this.comboBox1.Location = new System.Drawing.Point(-3, 23);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 40);
             this.comboBox1.TabIndex = 0;
@@ -68,7 +68,7 @@
             "Orange",
             "Magenta",
             "Gold"});
-            this.comboBox2.Location = new System.Drawing.Point(8, 86);
+            this.comboBox2.Location = new System.Drawing.Point(-3, 86);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(200, 40);
             this.comboBox2.TabIndex = 0;
@@ -77,7 +77,7 @@
             // lblBorder
             // 
             this.lblBorder.BackColor = System.Drawing.Color.RoyalBlue;
-            this.lblBorder.Location = new System.Drawing.Point(-15, 148);
+            this.lblBorder.Location = new System.Drawing.Point(-26, 148);
             this.lblBorder.Name = "lblBorder";
             this.lblBorder.Size = new System.Drawing.Size(246, 2);
             this.lblBorder.TabIndex = 3;
@@ -95,7 +95,7 @@
             "Orange",
             "Magenta",
             "Gold"});
-            this.comboBox3.Location = new System.Drawing.Point(8, 297);
+            this.comboBox3.Location = new System.Drawing.Point(-3, 297);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(200, 40);
             this.comboBox3.TabIndex = 0;
@@ -114,7 +114,7 @@
             "Orange",
             "Magenta",
             "Gold"});
-            this.comboBox4.Location = new System.Drawing.Point(8, 359);
+            this.comboBox4.Location = new System.Drawing.Point(-3, 359);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(200, 40);
             this.comboBox4.TabIndex = 0;
@@ -123,7 +123,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(-15, 426);
+            this.label1.Location = new System.Drawing.Point(-26, 426);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(246, 2);
             this.label1.TabIndex = 3;
@@ -140,7 +140,7 @@
             "Medium",
             "Strong",
             "Very Strong"});
-            this.comboBox5.Location = new System.Drawing.Point(8, 454);
+            this.comboBox5.Location = new System.Drawing.Point(-3, 454);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(200, 40);
             this.comboBox5.TabIndex = 0;
@@ -157,7 +157,7 @@
             "Show",
             "Only CPU",
             "Only Player"});
-            this.comboBox6.Location = new System.Drawing.Point(8, 516);
+            this.comboBox6.Location = new System.Drawing.Point(-3, 516);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(200, 40);
             this.comboBox6.TabIndex = 0;
@@ -176,7 +176,7 @@
             "Orange",
             "Magenta",
             "Gold"});
-            this.comboBox7.Location = new System.Drawing.Point(8, 173);
+            this.comboBox7.Location = new System.Drawing.Point(-3, 173);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(200, 40);
             this.comboBox7.TabIndex = 0;
@@ -195,7 +195,7 @@
             "Orange",
             "Magenta",
             "Gold"});
-            this.comboBox8.Location = new System.Drawing.Point(8, 235);
+            this.comboBox8.Location = new System.Drawing.Point(-3, 235);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(200, 40);
             this.comboBox8.TabIndex = 0;
@@ -218,7 +218,7 @@
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Name = "SettingsPage";
-            this.Size = new System.Drawing.Size(220, 323);
+            this.Size = new System.Drawing.Size(220, 349);
             this.ResumeLayout(false);
 
         }

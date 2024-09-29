@@ -51,6 +51,7 @@
             this.btnIcon.TabIndex = 1;
             this.toolTip1.SetToolTip(this.btnIcon, "Options");
             this.btnIcon.UseVisualStyleBackColor = false;
+            this.btnIcon.Click += new System.EventHandler(this.btnIcon_Click);
             // 
             // btnMinimize
             // 

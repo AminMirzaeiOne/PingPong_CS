@@ -47,6 +47,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="XDropDown">
+      <HintPath>..\..\..\Library\WindowsForms\XDropDown\XDropDown\bin\Debug\XDropDown.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controls\FormTools.cs">
