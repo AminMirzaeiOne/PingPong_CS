@@ -88,6 +88,12 @@
     <Compile Include="Pages\SettingsPage.Designer.cs">
       <DependentUpon>SettingsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\VersionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\VersionPage.Designer.cs">
+      <DependentUpon>VersionPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\FormTools.resx">
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\SettingsPage.resx">
       <DependentUpon>SettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\VersionPage.resx">
+      <DependentUpon>VersionPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
