@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PingPongIcon.ico" />
+    <None Include="Resources\AminMirzaei.png" />
     <None Include="Resources\image %281%29.png" />
     <None Include="Resources\image.png" />
     <None Include="Resources\icons8-settings-24.png" />
