@@ -35,6 +35,7 @@
             this.radVersion = new System.Windows.Forms.RadioButton();
             this.formTools1 = new PingPong.Controls.FormTools();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -57,6 +58,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.formTools1);
@@ -78,12 +80,14 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(394, 60);
             this.tableLayoutPanel2.TabIndex = 4;
             // 
             // radDeveloper
             // 
             this.radDeveloper.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radDeveloper.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radDeveloper.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.radDeveloper.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -100,6 +104,7 @@
             // radVersion
             // 
             this.radVersion.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radVersion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radVersion.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.radVersion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -133,6 +138,14 @@
             this.label1.Size = new System.Drawing.Size(394, 2);
             this.label1.TabIndex = 5;
             // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(394, 387);
+            this.panel2.TabIndex = 6;
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -160,5 +173,6 @@
         private System.Windows.Forms.RadioButton radVersion;
         private Controls.FormTools formTools1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
