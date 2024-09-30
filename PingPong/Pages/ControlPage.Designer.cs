@@ -117,6 +117,7 @@
             this.btnFeedback.TabIndex = 0;
             this.btnFeedback.Text = "";
             this.btnFeedback.UseVisualStyleBackColor = true;
+            this.btnFeedback.Click += new System.EventHandler(this.btnFeedback_Click);
             // 
             // ControlPage
             // 

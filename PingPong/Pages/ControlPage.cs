@@ -59,5 +59,11 @@ namespace PingPong.Pages
             PingPong.Forms.About about = new Forms.About();
             about.ShowDialog();
         }
+
+        private void btnFeedback_Click(object sender, EventArgs e)
+        {
+            PingPong.Forms.Feedback feedback = new Forms.Feedback();
+            feedback.ShowDialog();
+        }
     }
 }
