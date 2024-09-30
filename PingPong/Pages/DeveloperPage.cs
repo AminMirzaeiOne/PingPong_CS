@@ -21,5 +21,10 @@ namespace PingPong.Pages
         {
             System.Windows.Forms.Clipboard.SetText(this.button1.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/AminMirzaeiOne");
+        }
     }
 }
