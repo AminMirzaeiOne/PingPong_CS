@@ -16,5 +16,10 @@ namespace PingPong.Pages
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(this.button1.Text);
+        }
     }
 }
