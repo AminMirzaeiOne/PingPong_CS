@@ -93,6 +93,7 @@
             this.radDeveloper.FlatAppearance.BorderSize = 0;
             this.radDeveloper.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
             this.radDeveloper.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radDeveloper.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radDeveloper.ForeColor = System.Drawing.Color.White;
             this.radDeveloper.Location = new System.Drawing.Point(200, 3);
             this.radDeveloper.Name = "radDeveloper";
@@ -112,6 +113,7 @@
             this.radVersion.FlatAppearance.BorderSize = 0;
             this.radVersion.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
             this.radVersion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radVersion.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radVersion.ForeColor = System.Drawing.Color.White;
             this.radVersion.Location = new System.Drawing.Point(3, 3);
             this.radVersion.Name = "radVersion";
