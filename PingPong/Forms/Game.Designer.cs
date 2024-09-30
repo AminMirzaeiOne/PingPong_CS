@@ -137,7 +137,7 @@
             this.lblCpuPoints.Name = "lblCpuPoints";
             this.lblCpuPoints.Size = new System.Drawing.Size(25, 30);
             this.lblCpuPoints.TabIndex = 0;
-            this.lblCpuPoints.Text = "3";
+            this.lblCpuPoints.Text = "0";
             // 
             // lblCpuColor
             // 
@@ -165,9 +165,9 @@
             this.lblPlayerPoints.ForeColor = System.Drawing.Color.White;
             this.lblPlayerPoints.Location = new System.Drawing.Point(515, 15);
             this.lblPlayerPoints.Name = "lblPlayerPoints";
-            this.lblPlayerPoints.Size = new System.Drawing.Size(37, 30);
+            this.lblPlayerPoints.Size = new System.Drawing.Size(25, 30);
             this.lblPlayerPoints.TabIndex = 0;
-            this.lblPlayerPoints.Text = "10";
+            this.lblPlayerPoints.Text = "0";
             // 
             // label3
             // 
