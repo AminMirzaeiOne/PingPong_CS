@@ -57,6 +57,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Version : 1.0.0";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -79,6 +80,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Channel : Stable";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -101,6 +103,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Build Year : 2019";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button1_Click);
             // 
             // VersionPage
             // 

@@ -12,9 +12,12 @@ namespace PingPong.Forms
 {
     public partial class About : Form
     {
+        PingPong.Pages.VersionPage versionPage = new Pages.VersionPage();
         public About()
         {
             InitializeComponent();
+            this.panel2.Controls.Add(this.versionPage);
+            this.versionPage.Dock = DockStyle.Fill;
         }
     }
 }
