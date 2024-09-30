@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PingPong.Forms;
 
 namespace PingPong.Controls
 {
@@ -15,6 +16,7 @@ namespace PingPong.Controls
         public FormTools()
         {
             InitializeComponent();
+            
         }
 
         XDropDown.XToolStripDropDown xTool;
@@ -70,6 +72,7 @@ namespace PingPong.Controls
 
         private void btnIcon_Click(object sender, EventArgs e)
         {
+            ((Game)this.Parent.Parent.Parent).StopGame();
             xTool.Show(this.btnIcon);
         }
 
@@ -83,6 +86,12 @@ namespace PingPong.Controls
             this.mainMenu.Window = this.Window;
             xTool = new XDropDown.XToolStripDropDown(this.mainMenu);
             this.mainMenu.MinimizeClicked += new EventHandler(this.MinimizeClick);
+            this.xTool.Closed += new ToolStripDropDownClosedEventHandler(this.ToolStrip_Closed);
+        }
+
+        private void ToolStrip_Closed(object sender, ToolStripDropDownClosedEventArgs e)
+        {
+            ((Game)this.Parent.Parent.Parent).StartGame();
         }
     }
 }
