@@ -30,12 +30,12 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.radDeveloper = new System.Windows.Forms.RadioButton();
             this.radVersion = new System.Windows.Forms.RadioButton();
             this.formTools1 = new PingPong.Controls.FormTools();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -68,6 +68,23 @@
             this.panel1.Size = new System.Drawing.Size(394, 494);
             this.panel1.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(394, 387);
+            this.panel2.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label1.Location = new System.Drawing.Point(0, 432);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(394, 2);
+            this.label1.TabIndex = 5;
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
@@ -80,7 +97,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(394, 60);
             this.tableLayoutPanel2.TabIndex = 4;
             // 
@@ -103,10 +120,12 @@
             this.radDeveloper.Text = "Developer";
             this.radDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radDeveloper.UseVisualStyleBackColor = true;
+            this.radDeveloper.CheckedChanged += new System.EventHandler(this.radDeveloper_CheckedChanged);
             // 
             // radVersion
             // 
             this.radVersion.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radVersion.Checked = true;
             this.radVersion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radVersion.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
@@ -123,6 +142,7 @@
             this.radVersion.Text = "Version";
             this.radVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radVersion.UseVisualStyleBackColor = true;
+            this.radVersion.CheckedChanged += new System.EventHandler(this.radVersion_CheckedChanged);
             // 
             // formTools1
             // 
@@ -135,23 +155,6 @@
             this.formTools1.TabIndex = 3;
             this.formTools1.Window = null;
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(0, 432);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(394, 2);
-            this.label1.TabIndex = 5;
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 45);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(394, 387);
-            this.panel2.TabIndex = 6;
-            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -163,6 +166,7 @@
             this.Name = "About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
+            this.Load += new System.EventHandler(this.About_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
