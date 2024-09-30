@@ -21,3 +21,9 @@ Modern ping pong game written with C# Windows Forms<br />
 3 - Go to the control and settings section by clicking on the icon
 
 <h2>📷 Screenshots</h2>
+
+https://github.com/user-attachments/assets/9e8d6bb9-8b62-4e9b-a50f-5f9d2ec41bf1
+
+https://github.com/user-attachments/assets/58236a2e-727e-4550-92c6-87044cdce69d
+
+
