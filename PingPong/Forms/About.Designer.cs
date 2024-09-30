@@ -90,6 +90,8 @@
             this.radDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radDeveloper.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radDeveloper.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.radDeveloper.FlatAppearance.BorderSize = 0;
+            this.radDeveloper.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
             this.radDeveloper.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radDeveloper.ForeColor = System.Drawing.Color.White;
             this.radDeveloper.Location = new System.Drawing.Point(200, 3);
@@ -107,6 +109,8 @@
             this.radVersion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radVersion.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.radVersion.FlatAppearance.BorderSize = 0;
+            this.radVersion.FlatAppearance.CheckedBackColor = System.Drawing.Color.RoyalBlue;
             this.radVersion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radVersion.ForeColor = System.Drawing.Color.White;
             this.radVersion.Location = new System.Drawing.Point(3, 3);

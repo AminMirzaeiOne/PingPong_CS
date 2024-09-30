@@ -44,7 +44,14 @@ namespace PingPong.Controls
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            if (this.Parent.Parent.Parent.GetType() == typeof(About))
+            {
+                ((About)this.Parent.Parent.Parent).Close();
+            }
+            else
+            {
+                System.Windows.Forms.Application.Exit();
+            }
         }
 
         private void btnMaxRes_Click(object sender, EventArgs e)
