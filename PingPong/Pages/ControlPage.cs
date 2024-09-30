@@ -53,5 +53,11 @@ namespace PingPong.Pages
             }
             this.MinimizeClicked(sender, e);
         }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            PingPong.Forms.About about = new Forms.About();
+            about.ShowDialog();
+        }
     }
 }

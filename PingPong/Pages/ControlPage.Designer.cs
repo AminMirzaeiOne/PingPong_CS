@@ -102,6 +102,7 @@
             this.btnAbout.TabIndex = 0;
             this.btnAbout.Text = "";
             this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // btnFeedback
             // 
