@@ -219,6 +219,15 @@ namespace PingPong.Forms
             //pause_txt.Location = new Point((int)rightBounds / 2 - pause_txt.Width / 2, (int)bottomBounds / 2 - pause_txt.Height / 2);
         }
 
+        public void StopGame()
+        {
+            this.timer1.Stop();
+        }
+
+        public void StartGame()
+        {
+            this.timer1.Start();
+        }
         
 
         private void label4_Click(object sender, EventArgs e)

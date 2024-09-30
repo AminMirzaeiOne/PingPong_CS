@@ -36,6 +36,7 @@
             this.formTools1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.formTools1.Dock = System.Windows.Forms.DockStyle.Top;
             this.formTools1.Location = new System.Drawing.Point(0, 0);
+            this.formTools1.MaximizeButton = false;
             this.formTools1.Name = "formTools1";
             this.formTools1.Size = new System.Drawing.Size(328, 45);
             this.formTools1.TabIndex = 0;

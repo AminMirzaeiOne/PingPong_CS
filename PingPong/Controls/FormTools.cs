@@ -22,7 +22,18 @@ namespace PingPong.Controls
         public System.Boolean MaximizeButton
         {
             get { return this.btnMaxRes.Visible; }
-            set { this.btnMaxRes.Visible = value; }
+            set 
+            { 
+                this.btnMaxRes.Visible = value;
+                if (value)
+                {
+                    this.btnMinimize.Location = new Point(430, 2);
+                }
+                else
+                {
+                    this.btnMinimize.Location = new Point(485, 2);
+                }
+            }
         }
 
         private PingPong.Menus.MainMenu mainMenu = new Menus.MainMenu();
